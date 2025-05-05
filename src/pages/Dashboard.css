@@ -1,0 +1,35 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 130px); /* Full height minus header and footer */
+  width: 100%;
+}
+
+.dashboard-content {
+  text-align: center;
+}
+
+.dashboard-message {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dashboard-score {
+  font-size: 1.5em;
+}
+
+.reset-button {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 0;
+}
+
+.reset-button:hover {
+  color: darkblue;
+}
